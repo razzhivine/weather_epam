@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&subset=cyrillic');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background: #ccc;
+    box-sizing: border-box;
+}
+.none{
+    display: none;
+}
+h1{
+    font-weight: 300;
+    margin: 100px 0 50px ;
+    display: inline-block;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+#weather{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    justify-items: center;
+    align-items: center;
+
+}
+.currentDay{
+    margin: 0 30px;
+}
+.weather__block {
+    background: #fff;
+    width: 300px;
+    flex-grow: 1;
+    margin: 0 auto;
+}
+.day{
+    font-size: 16px;
+    margin: 20px 0;
+}
+.date{
+    font-size: 28px;
+    margin: 15px 0;
+}
+i{
+    font-size: 50px ;
+}
+.fas{
+    color: lightblue;
+    margin: 20px 20px;
+}
+.fa-sun{
+    color: lightsalmon;
+}
+.fa-caret-left{
+    font-size: 100px;
+    color: darkgray;
+
+}
+.fa-caret-right{
+    font-size: 100px;
+    color: darkgray;
+}
+.tempDay{
+    font-size: 28px;
+    margin: 15px 0 10px  0;
+}
+.tempNight{
+    color: #ccc;
+    font-size: 20px;
+    margin: 0 0 40px 0;
+}
+.precipitation{
+    color: #ccc;
+    font-size: 20px;
+    margin: 0 0 60px 0;
+
+}
+.currentDay{
+    display: inline-block;
+}
